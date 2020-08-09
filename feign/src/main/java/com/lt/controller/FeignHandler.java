@@ -3,6 +3,7 @@ package com.lt.controller;
 import com.lt.entity.Student;
 import com.lt.feign.FeignProviderClient;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
